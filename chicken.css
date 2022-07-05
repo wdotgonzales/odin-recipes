@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+body{
+  background-color: orange;
+}
+
+.logo{
+  background-color: antiquewhite;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+
+  padding-top: 2.5em;
+  padding-bottom: 3em;
+}
+
+.container1{
+  background-color: antiquewhite;
+  width: 70%;
+  margin: 0 auto;
+}
+
+img{
+  width: 50%;
+  border: 8px solid orange;
+  border-radius: 50px;
+
+  min-width: 300px;
+
+  box-shadow: 3px 3px 5px 1px black;
+}
+
+.burgerpic{
+  text-align: center;
+}
+
+.container2{
+  
+  width: 50%;
+  margin: 0 auto;
+
+
+  display: flex;
+  
+}
+
+.ingredients , .directions {
+  width: 50%;
+}
+
+.directions p {
+  padding-bottom: 2em;
+}
+
+.ingredients h3 , .directions h3{
+  padding: 1.5em;
+}
+
+.directions h4{
+  padding-bottom: 0.5em;
+}
+
+.container2{
+  font-size :20px;
+  gap: 50px;
+}
+
+li{
+  padding-bottom: 0.2em;
+}
+
+.container1 , .logo{
+  max-width: 1500px;
+  min-width: 725px;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(41, 28, 28)
+}
+
+
+@media(max-width:1100px){
+  .container2{
+    display: block;
+    gap:0;
+  }
+
+  .ingredients , .directions {
+    width: 100%;
+  }
+
+  body{
+    background-color: antiquewhite;
+  }
+  
+}
